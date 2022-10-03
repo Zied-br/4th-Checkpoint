@@ -1,0 +1,82 @@
+html{
+    background-image: url('html_background.jpg')
+    ;background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 30%;
+    overflow: hidden;
+    background-color: rgba(99, 83, 83, 0.548);
+  }
+  
+  li {
+    float: left;
+  }
+ 
+  li a {
+    display: block;
+    color: rgba(255, 255, 255, 0.829);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color:rgba(255, 166, 0, 0.808);
+  }
+  a+h1{
+    color:rgba(255, 166, 0, 0.808);
+    padding-left: 5%;
+    text-shadow: 1px 1px;
+    
+}
+#paragraph{
+    text-align: center;
+    
+}
+img{
+    width:600px; 
+    height :300px;
+    padding-left: 8%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+
+}
+br+li{
+  
+    text-size-adjust: 2%;
+    background-color: rgba(99, 83, 83, 0.548);
+    width: 50%;
+
+}
+h1+p{
+    text-align: center;
+}
+h4{
+    margin-left: 25% ;
+    text-align: center;
+    background-color: rgba(99, 83, 83, 0.548);
+    width: 50%;
+}
+video{
+    width: 50%;
+}
+br+a{
+    margin-left: 2%;
+    font-weight: bold;
+    color: blueviolet;
+    
+}
+audio{
+    margin-left:80% ;
+}
+form{
+    margin-left:5%;
+}
